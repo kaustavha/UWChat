@@ -1,0 +1,13 @@
+"name": "UWChatApp"
+"email": "kaustav_2007@hotmail.com"
+"url": "http://kaustav.me/"
+"devDependencies": 
+    "gulp": "latest"
+    "gulp-rename": "latest"
+    "gulp-jade": "latest"
+    "gulp-stylus": "latest"
+    "gulp-coffee": "latest"
+    "gulp-util": "latest"
+    "gulp-rename": "latest"
+    "yargs": "latest"
+    "wrench": "latest"

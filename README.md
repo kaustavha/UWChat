@@ -15,14 +15,14 @@ The cakefile handles npm install and bower install.
 To get started, make sure you have nodeJS installed. Then:
 
 If you dont have coffescript 
-'''
+```
 sudo npm install -g coffescript
-'''
+```
 
 To transpile the source files
-'''
+```
 sudo cake -t cordova build
-'''
+```
 
 This will compile package.json and bower.json from src/tools, run them with the correct permissions, then run gulp.
 Gulp will compile files from www/src/src to appropriate directories in www/ and copy src/bower_components to www/lib.

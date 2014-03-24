@@ -10,10 +10,20 @@ The app attempts to do this by allowing freshmen to communicate easily and seaml
 ## Developer quickstart:
 
 Based off of firechat. Code is in coffescript, jade and stylus, inside the www/src directory. 
-Cordova commands work and can be used to add platforms, build, emulate etc. 
-The cakefile tries to handle most things. 
-To get started, make sure you have nodeJS, npm, and the coffescript package from npm installed. Then:
-'sudo cake -t cordova build'
+Cordova commands should work and can be used to add platforms, build, emulate etc. 
+The cakefile handles npm install and bower install. 
+To get started, make sure you have nodeJS installed. Then:
+
+If you dont have coffescript 
+'''
+sudo npm install -g coffescript
+'''
+
+To transpile the source files
+'''
+sudo cake -t cordova build
+'''
+
 This will compile package.json and bower.json from src/tools, run them with the correct permissions, then run gulp.
 Gulp will compile files from www/src/src to appropriate directories in www/ and copy src/bower_components to www/lib.
 It will then watch the files for changes.

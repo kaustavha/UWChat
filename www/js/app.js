@@ -3,7 +3,6 @@ var app;
 app = angular.module('app', ['ngTouch']);
 
 app.controller('MainController', function($scope) {
-  var ref = window.open('http://kaustavha.github.io/UWC/index.html', '_blank', 'hidden=no');
   $scope.change = function() {
     var auth, chat, chatRef, email, pwd, username;
     chatRef = new Firebase('https://fiery-fire-2457.firebaseio.com/');

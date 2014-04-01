@@ -61,7 +61,7 @@ cordova build android --release
 This'll create an unsigned apk in /platforms/android/ant-build
 Sign it as per http://developer.android.com/tools/publishing/app-signing.html
 ```
-keytool -genkey <keyname>.keystore -alias <alias-name>
+keytool -genkey -keystore <keyname>.keystore -alias <alias-name>
 jarsigner -keystore <name.keystore> <apk name> <keystore alias>
 ```
 

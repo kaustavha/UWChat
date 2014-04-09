@@ -78,5 +78,5 @@ jarsigner -keystore <name.keystore> <apk name> <keystore alias>
 
 ## Screenshots: 
 
-![alt text](https://github.com/kaustavha/UWChat/tree/master/ss/screen_login.png "Login screen")
-![alt text](https://github.com/kaustavha/UWChat/tree/master/ss/screen_chat.png "Login screen")
+![alt text](/ss/screen_login.png "Login screen")
+![alt text](/ss/screen_chat.png "Login screen")
